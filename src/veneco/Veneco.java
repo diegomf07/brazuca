@@ -14,6 +14,8 @@ public class Veneco {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Conexion cn = new Conexion();
+cn.conectar();
       Productos objProductos1 = new Productos();
         objProductos1.marca = "Nike";
         objProductos1.modelo = "Air Max";
